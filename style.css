@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 85%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 5rem;
+  background: linear-gradient(rgba(13, 10, 31, 0.825), rgba(23, 19, 51, 0.753)),
+    url(images/bg_restaurant.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ff545c;
+  color: #eee;
+}
+
+section[aria-label="navbar"] {
+  height: 8rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  color: #ffc434;
+  height: 5rem;
+}
+
+.list .list-item {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Red Rose", cursive;
+}
+
+.button-small {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Red Rose";
+  padding: 0.5rem 2rem;
+  margin-right: 2rem;
+  border: 1px solid #ff545c;
+  cursor: pointer;
+}
+
+section[aria-label="hero"] {
+  height: 60rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  padding: 2rem 0rem 5rem 0rem;
+  font-size: 7rem;
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 550;
+  color: #d58e1d;
+  width: 75vw;
+  height: 50vh;
+  position: relative;
+  margin: 0 auto;
+  right: 1rem;
+  bottom: 4rem;
+}
+
+.button-large {
+  font-size: 2.2rem;
+  font-family: "Red Rose";
+  margin-top: 6rem;
+  border: none;
+  padding: 1rem 2rem;
+  word-spacing: 0.2rem;
+  font-weight: 550;
+}
+
+.bottom {
+  position: relative;
+}
+
+.bottom div img {
+  position: absolute;
+  top: -100px;
+  right: 3px;
+  width: 12rem;
+}
